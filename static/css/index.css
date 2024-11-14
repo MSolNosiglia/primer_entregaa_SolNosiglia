@@ -1,0 +1,42 @@
+.nosotros{
+  margin: 20px;
+  display: flex;
+  gap: 30px; /* Espacio entre la imagen y el contenido */
+  align-items: center;  
+}
+
+.laptop-img img {
+  width: 300px;  
+  height: 300px;
+}
+
+.laptop-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Espacio entre el h2, p, y button */
+}
+
+.laptop-content h2 {
+  font-size: 1.8em;
+  margin: 0;
+}
+
+.laptop-content p {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.laptop-content button {
+  align-self: self-start; /* Alinea el botón a la derecha */
+  padding: 5px 10px; /* Tamaño del botón basado en el tamaño del texto */
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  
+}
+
+.laptop-content button:hover {
+  background-color: #555;
+}

@@ -1,0 +1,26 @@
+.servicios{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: repeat(2,2fr);
+  gap:20px;
+  margin: 20px 20px;
+
+  
+}
+.servicios-contables{
+  margin: 20px;
+
+}
+
+.servicios-contables img {
+  width: 600px;
+  height: 400px;
+}
+.servicios-contables h3 {
+  padding: 10px;
+}
+
+.servicios-contables p {
+  text-align: justify;
+}

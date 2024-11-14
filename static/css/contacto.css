@@ -1,0 +1,14 @@
+.contacto{
+  width: 100%;
+  display: flex;
+  height: auto;
+}
+.formulario{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  font-size: 1.2em;
+  margin-top: 40px;
+}
